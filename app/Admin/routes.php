@@ -16,4 +16,6 @@ Route::group([
     $router->resource('properties', PropertyController::class);
 
     $router->resource('market-share-notes', MarketShareNoteController::class);
+
+    $router->resource('people', PersonController::class);
 });
