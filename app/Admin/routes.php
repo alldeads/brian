@@ -24,4 +24,6 @@ Route::group([
     $router->resource('sellers', SellerController::class);
 
     $router->resource('subleases', SubleaseController::class);
+
+    $router->resource('show-logs', ShowLogController::class);
 });
