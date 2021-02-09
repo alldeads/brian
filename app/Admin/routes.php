@@ -18,4 +18,6 @@ Route::group([
     $router->resource('market-share-notes', MarketShareNoteController::class);
 
     $router->resource('people', PersonController::class);
+
+    $router->resource('agents', AgentController::class);
 });
