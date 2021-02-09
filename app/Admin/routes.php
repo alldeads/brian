@@ -14,4 +14,6 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('home');
 
     $router->resource('properties', PropertyController::class);
+
+    $router->resource('market-share-notes', MarketShareNoteController::class);
 });
