@@ -534,6 +534,7 @@ class ComposerStaticIniteeae537c43f3d97381abf7ccdde99656
     );
 
     public static $classMap = array (
+        'App\\Admin\\Controllers\\AgentController' => __DIR__ . '/../..' . '/app/Admin/Controllers/AgentController.php',
         'App\\Admin\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Admin/Controllers/AuthController.php',
         'App\\Admin\\Controllers\\ExampleController' => __DIR__ . '/../..' . '/app/Admin/Controllers/ExampleController.php',
         'App\\Admin\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Admin/Controllers/HomeController.php',
@@ -556,6 +557,7 @@ class ComposerStaticIniteeae537c43f3d97381abf7ccdde99656
         'App\\Models\\MarketShareNote' => __DIR__ . '/../..' . '/app/Models/MarketShareNote.php',
         'App\\Models\\Person' => __DIR__ . '/../..' . '/app/Models/Person.php',
         'App\\Models\\Property' => __DIR__ . '/../..' . '/app/Models/Property.php',
+        'App\\Models\\Seller' => __DIR__ . '/../..' . '/app/Models/Seller.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
