@@ -15,8 +15,8 @@ class CreateMarketShareNotesTable extends Migration
     {
         Schema::create('market_share_notes', function (Blueprint $table) {
             $table->id();
-            $table->string('short_name');
-            $table->string('note');
+            $table->string('short_name')->nullable();
+            $table->string('note')->nullable();
             $table->timestamps();
         });
     }
