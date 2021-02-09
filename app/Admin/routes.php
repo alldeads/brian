@@ -22,4 +22,6 @@ Route::group([
     $router->resource('agents', AgentController::class);
 
     $router->resource('sellers', SellerController::class);
+
+    $router->resource('subleases', SubleaseController::class);
 });
